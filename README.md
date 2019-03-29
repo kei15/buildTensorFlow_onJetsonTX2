@@ -16,7 +16,7 @@ sudo apt-get remove python-enum34
 ```
 Python 2.7用のTensorFlow 1.10のwhlファイルを[ここ](https://nvidia.app.box.com/v/TF1100-Py27-wTRT)からダウンロードする。
 
-**補足:** 他のバージョンをインストールする場合は[こちら](https://devtalk.nvidia.com/default/topic/1031300/jetson-tx2/tensorflow-1-11-0-wheel-with-jetpack-3-3/1)から。
+他のバージョンをインストールする場合は[こちら](https://devtalk.nvidia.com/default/topic/1031300/jetson-tx2/tensorflow-1-11-0-wheel-with-jetpack-3-3/1)から。
 
 そのwhlファイルがあるディレクトリで以下のコマンドを実行。
 ```
