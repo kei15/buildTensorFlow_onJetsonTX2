@@ -1,14 +1,14 @@
 # buildTensorFlow_onJetsonTX2
 JetsonTX2にTensorFlow 1.10をインストールした。
 
-## Dependencies
+## 構築環境
 * JetPack 3.2
 * CUDA 9.0
 * cuDNN 7.0.5
 * TensorRT 3.0 GA
 * Python 2.7
 
-## Build
+## 手順
 launchpadlibをインストールとenum34のアンインストール。これをしないと後でエラーが出た。
 ```
 sudo pip install launchpadlib
@@ -22,3 +22,6 @@ sudo pip2 install tensorflow-1.10.0-cp27-cp27mu-linux_aarch64.whl
 ```
 **補足:**　python 3.5の環境で構築したい人は``pip2``を``pip3``に変更すればいいはず。
 
+## 参考
+* [Jetson TX2 環境構築 リベンジマッチ(JetPack3.2.1) ~Openposeを導入するまで~](https://twdlab.hatenablog.com/entry/2018/06/19/102332)
+* [How To Uninstall python-enum34 On Ubuntu 16.04 LTS](http://installion.co.uk/ubuntu/xenial/main/p/python-enum34/uninstall/index.html)
