@@ -1,5 +1,5 @@
 # buildTensorFlow_onJetsonTX2
-JetsonTX2にTensorFlow 1.10をインストールした。
+JetsonTX2にTensorFlow 1.10をインストールしたよ。
 
 ## 構築環境
 * JetPack 3.2
