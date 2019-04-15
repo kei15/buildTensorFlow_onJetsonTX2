@@ -1,0 +1,2 @@
+エラーメッセージをNvidiaの公式フォーラムに適当に投げた。下のところ参照。
+https://devtalk.nvidia.com/default/topic/1050082/jetson-tx1/how-to-install-tensorflow-on-jetsontx2-from-source/
